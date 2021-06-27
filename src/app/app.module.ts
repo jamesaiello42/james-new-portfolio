@@ -7,6 +7,7 @@ import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationExperienceComponent } from './education-experience/education-experience.component';
+import { GithubComponent } from './github/github.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { EducationExperienceComponent } from './education-experience/education-e
     AboutComponent,
     ContactComponent,
     WorkExperienceComponent,
-    EducationExperienceComponent
+    EducationExperienceComponent,
+    GithubComponent
   ],
   imports: [
     BrowserModule,
@@ -23,6 +25,7 @@ import { EducationExperienceComponent } from './education-experience/education-e
       {path: '', component: AboutComponent},
       {path: 'work-experience', component: WorkExperienceComponent},
       {path: 'education-experience', component: EducationExperienceComponent},
+      {path: 'github', component: GithubComponent},
       {path: 'contact', component: ContactComponent},
     ]),
   ],
