@@ -18,7 +18,7 @@ export class WorkExperienceComponent implements OnInit {
                                 'Formulate, and deploy innovative Software Development solutions on a collaborative, product-focused team to build innovative customer experiences, and deliver value to the business.',
                                 'Create new SQL queries and stored procedures optimizing existing procedures. Develop reports using Jaspersoft, while concurrently validating data with Excel, and creating pie charts, and drill downs using Tableau.',
                                 'Develop, implement, support, and maintain applications based on business requirements using an array of technical tools to connect technical functions to drive upward business mobility.',
-                                'Devise market leading solutions by combining technical expertise with a developing understanding of basic software design concepts throughout the software development lifecycle.',
+                                'Devise solutions by combining technical expertise with a developing understanding of basic software design concepts throughout the software development lifecycle.',
                                 'In collaboration with a team, use technical expertise combined with business acumen to envision what’s possible in solving business challenges using technology to differentiate Charter Communications in the market.'
                               ]
                       }, 
@@ -35,7 +35,7 @@ export class WorkExperienceComponent implements OnInit {
                         dates: "November 2017 - December 2018",
                         resp: [
                           'Worked with business stakeholders of applications in important projects to ensure quality software. ',
-                          'Communicated with internal/external teams and recommended modifications to processes and procedures to accomplish large projects in a timely manner.',
+                          'Communicated with internal teams and recommended modifications to processes and procedures to accomplish large projects in a timely manner.',
                           'Collaborated with team members to evaluate, and query data from Schnucks’ databases to complete extensive projects.',
                           'Designed, developed, coded, and tested software systems or applications for software improvements and new products.',
                           'Harnessed Talend and SQL to extract data and transform it to meet the end customer’s needs. Load into Domo (ETL) to finalize.',

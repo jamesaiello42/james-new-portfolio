@@ -27,6 +27,7 @@ import { GithubComponent } from './github/github.component';
       {path: 'education-experience', component: EducationExperienceComponent},
       {path: 'github', component: GithubComponent},
       {path: 'contact', component: ContactComponent},
+      { path: '**', component: AboutComponent}
     ]),
   ],
   providers: [],

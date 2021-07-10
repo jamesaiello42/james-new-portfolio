@@ -14,12 +14,12 @@ export class EducationExperienceComponent implements OnInit {
     {
       school: "University of Missouri - St. Louis",
       dates: "May 2019",
-      degree: "Bachelor of Science in Computer"  
+      degree: "Bachelor of Science in Computer Science"  
     },
     {
       school: "St. Charles Community College",
       dates: "December 2016",
-      degree: "Associate of Arts of Science in Computer"  
+      degree: "Associate of Arts of Science in Computer Science"  
     }
   ]
   constructor() { }
