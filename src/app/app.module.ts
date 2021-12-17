@@ -8,6 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { WorkExperienceComponent } from './work-experience/work-experience.component';
 import { EducationExperienceComponent } from './education-experience/education-experience.component';
 import { GithubComponent } from './github/github.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { GithubComponent } from './github/github.component';
     ContactComponent,
     WorkExperienceComponent,
     EducationExperienceComponent,
-    GithubComponent
+    GithubComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +29,7 @@ import { GithubComponent } from './github/github.component';
       {path: 'education-experience', component: EducationExperienceComponent},
       {path: 'github', component: GithubComponent},
       {path: 'contact', component: ContactComponent},
-      { path: '**', component: AboutComponent}
+      { path: '**', component: NotFoundComponent}
     ]),
   ],
   providers: [],

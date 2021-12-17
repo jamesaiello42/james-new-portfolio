@@ -8,9 +8,16 @@ import { Component, OnInit } from '@angular/core';
 export class WorkExperienceComponent implements OnInit {
   // This is hard coded and need to be refactored later to from a database or json file
   experience = [	
+                    {
+                      company: "Accenture Federal Services", 
+                      dates: "September 2021 - Present",
+                      resp: [
+                          'Develops software for clients using Java.',
+                        ]
+                      },
                       { 
                         company: "Charter Communications", 
-                        dates: "July 2019 - Present", 
+                        dates: "July 2019 - September 2021", 
                         boldText: 'Promoted from Associate Software Developer to Software Developer in April of 2021.',
                         resp: [ 
                                 'Design, develop, implement, support, and maintain applications based on business requirements using Scrum / Agile, and MS Office.', 

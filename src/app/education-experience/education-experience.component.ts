@@ -19,7 +19,7 @@ export class EducationExperienceComponent implements OnInit {
     {
       school: "St. Charles Community College",
       dates: "December 2016",
-      degree: "Associate of Arts of Science in Computer Science"  
+      degree: "Associate of Arts"  
     }
   ]
   constructor() { }
